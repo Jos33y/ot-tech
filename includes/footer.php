@@ -109,7 +109,7 @@ include("includes/dbcon.php");
 
                 <h6>Find Us:</h6>
                 <?php 
-                $customer_id = 3;
+                $customer_id = 8;
                 $get_address = "select * from user_db where user_id=$customer_id";
                 $run_address = mysqli_query($conn, $get_address);
                $row_add= mysqli_fetch_array($run_address);
